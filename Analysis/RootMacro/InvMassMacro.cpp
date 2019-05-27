@@ -38,27 +38,57 @@ void InvMassMacro()
 	float mcpCosTheta1 = 0;
 	float mcpCosTheta2 = 0;
 	float mcpInvMass = 0;
+	int pfo_PDG1 = 0;
+	int pfo_PDG2 = 0;
+	float pfoCosTheta1 = 0;
+	float pfoCosTheta2 = 0;
+	float pfoInvMass = 0;
 	tree_mcp->SetBranchAddress("CrossSection",&xSection);
-	tree_mcp->SetBranchAddress("PolarizationElectron",&ePol);
-	tree_mcp->SetBranchAddress("PolarizationPositron",&pPol);
+	tree_mcp->SetBranchAddress("polarizationElectron",&ePol);
+	tree_mcp->SetBranchAddress("polarizationPositron",&pPol);
 	tree_mcp->SetBranchAddress("mcpPDG1", &mcp_PDG1);
 	tree_mcp->SetBranchAddress("mcpPDG2", &mcp_PDG2);
 	tree_mcp->SetBranchAddress("mcpCosTheta1",&mcpCosTheta1);
 	tree_mcp->SetBranchAddress("mcpCosTheta2",&mcpCosTheta2);
 	tree_mcp->SetBranchAddress("mcpInvMass", &mcpInvMass);
+	tree_mcp->SetBranchAddress("pfoPDG1", &pfo_PDG1);
+	tree_mcp->SetBranchAddress("pfoPDG2", &pfo_PDG2);
+	tree_mcp->SetBranchAddress("pfoCosTheta1",&pfoCosTheta1);
+	tree_mcp->SetBranchAddress("pfoCosTheta2",&pfoCosTheta2);
+	tree_mcp->SetBranchAddress("pfoInvMass", &pfoInvMass);
 	
-	TH1 *h_mcpInvMass = new TH1F("h_mcpInvMass","Invariant Mass of DiMuons", n_bins,0.,10.);
+	TH1 *h_mcpInvMass_os = new TH1F("h_mcpInvMass_os","Invariant Mass of DiMuons", n_bins,0.,10.);
+	TH1 *h_mcpInvMass_ls = new TH1F("h_mcpInvMass_ls","Invariant Mass of DiMuons", n_bins,0.,10.);
+	TH1 *h_pfoInvMass_os = new TH1F("h_pfoInvMass_os","Invariant Mass of DiMuons", n_bins,0.,10.);
+	TH1 *h_pfoInvMass_ls = new TH1F("h_pfoInvMass_ls","Invariant Mass of DiMuons", n_bins,0.,10.);
 	for (int i=0; i<nEntries_mcp; ++i)
 	{
 		tree_mcp->GetEntry(i);
 		if ((mcp_PDG1==13 && mcp_PDG2==-13)||(mcp_PDG1==-13 && mcp_PDG2==13))
 		{
-			h_mcpInvMass->Fill(mcpInvMass);
+			h_mcpInvMass_os->Fill(mcpInvMass);
+		}
+		if ((mcp_PDG1==13 && mcp_PDG2==13)||(mcp_PDG1==-13 && mcp_PDG2==-13))
+		{
+			h_mcpInvMass_ls->Fill(mcpInvMass);		
+		}
+		if ((pfo_PDG1==13 && pfo_PDG2==-13)||(pfo_PDG1==-13 && pfo_PDG2==13))
+		{
+			h_pfoInvMass_os->Fill(pfoInvMass);
+		}
+		if ((pfo_PDG1==13 && pfo_PDG2==13)||(pfo_PDG1==-13 && pfo_PDG2==-13))
+		{
+			h_pfoInvMass_ls->Fill(pfoInvMass);		
 		}
 	}
 	
 	TCanvas *can_mcpInvMass = new TCanvas("can_mcpInvMass","",800,800);
-	h_mcpInvMass->Draw();
+	h_mcpInvMass_os->Draw();
+	h_mcpInvMass_ls->Draw("same");
 	can_mcpInvMass->SaveAs((plots_dir+"mcpInvMass.pdf").c_str());
+	TCanvas *can_pfoInvMass = new TCanvas("can_pfoInvMass","",800,800);
+	h_pfoInvMass_ls->Draw();
+	h_pfoInvMass_os->Draw("same");
+	can_pfoInvMass->SaveAs((plots_dir+"pfoInvMass.pdf").c_str());
 	
 }
