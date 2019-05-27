@@ -80,43 +80,39 @@ class DiMuonMass : public Processor
 		int				m_nEvtSum{};
 
 		float				m_crossSection;
-		float				m_polarizaione;
-		float				m_polarizaionp;
+		float				m_polarizatione;
+		float				m_polarizationp;
 
-		typedef std::vector<int> IntVector;
+		int			m_mcpPDG1;
+		int			m_mcpPDG2;
 		
-		IntVector			m_mcpPDG1{};
-		IntVector			m_mcpPDG2{};
+		float			m_mcpCosTheta1;
+		float			m_mcpCosTheta2;
+		float			m_mcpPx1;
+		float			m_mcpPx2;
+		float			m_mcpPy1;
+		float			m_mcpPy2;
+		float			m_mcpPz1;
+		float			m_mcpPz2;
+		float			m_mcpInvMass;
+		float			m_mcpCosTheta;
+		float			m_mcpMomentum;
+		float			m_mcpPt;
 
-		typedef std::vector<float> FloatVector;
-		
-		FloatVector			m_mcpCosTheta1{};
-		FloatVector			m_mcpCosTheta2{};
-		FloatVector			m_mcpPx1{};
-		FloatVector			m_mcpPx2{};
-		FloatVector			m_mcpPy1{};
-		FloatVector			m_mcpPy2{};
-		FloatVector			m_mcpPz1{};
-		FloatVector			m_mcpPz2{};
-		FloatVector			m_mcpInvMass{};
-		FloatVector			m_mcpCosTheta{};
-		FloatVector			m_mcpMomentum{};
-		FloatVector			m_mcpPt{};
-
-		IntVector			m_pfoPDG1{};
-		IntVector			m_pfoPDG2{};
-		FloatVector			m_pfoCosTheta1{};
-		FloatVector			m_pfoCosTheta2{};
-		FloatVector			m_pfoPx1{};
-		FloatVector			m_pfoPx2{};
-		FloatVector			m_pfoPy1{};
-		FloatVector			m_pfoPy2{};
-		FloatVector			m_pfoPz1{};
-		FloatVector			m_pfoPz2{};
-		FloatVector			m_pfoInvMass{};
-		FloatVector			m_pfoCosTheta{};
-		FloatVector			m_pfoMomentum{};
-		FloatVector			m_pfoPt{};
+		int			m_pfoPDG1;
+		int			m_pfoPDG2;
+		float			m_pfoCosTheta1;
+		float			m_pfoCosTheta2;
+		float			m_pfoPx1;
+		float			m_pfoPx2;
+		float			m_pfoPy1;
+		float			m_pfoPy2;
+		float			m_pfoPz1;
+		float			m_pfoPz2;
+		float			m_pfoInvMass;
+		float			m_pfoCosTheta;
+		float			m_pfoMomentum;
+		float			m_pfoPt;
 
 
 		TFile				*m_pTFile{};
