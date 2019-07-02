@@ -1,0 +1,47 @@
+##########################################
+# Settings file for one HTCondor run.
+#
+##########################################
+
+# Where to write output from HTCondor #TODO CHANGE
+output = /nfs/dust/ilc/user/hosseins/DiMuMass/BIRD_LOG/OUT/DiParticleMass.$(Cluster).$(Process).out
+error  = /nfs/dust/ilc/user/hosseins/DiMuMass/BIRD_LOG/ERR/DiParticleMass.$(Cluster).$(Process).err
+log    = /nfs/dust/ilc/user/hosseins/DiMuMass/BIRD_LOG/LOG/DiParticleMass.$(Cluster).$(Process).log
+
+
+# Script that is supposed to be run
+Executable=/afs/desy.de/group/flc/pool/hosseins/DiMuonMass/scripts/run_single_HTC_job.sh
+
+
+# Default universe for normal jobs
+universe	= vanilla
+
++MyProject	= "af-ilc"
+
+Requirements = OpSysAndVer=="SL6"
+
+# Should files be transfered to remote machine?
+should_transfer_files	= IF_NEEDED
+
+# When should the user be notified? Options: Always / Complete / Error / Never
+Notification = Never
+
+# Set maximum run time to a day so that also longer jobs can be run like this
+
+# Set Requested amount of memory
+
+# Set Requested disk space
+
+# BIRD resources requests: Update as you need
++RequestRuntime = 3600 * 2
+RequestMemory = 1024 * 4
+RequestDisk = 2048 * 1
+RequestCpus = 1
+
+N=50
+
+Arguments = "current_processes $(Process) detector_model"
+
+Queue $(N)
+
+#Queue 1

@@ -1,0 +1,44 @@
+<marlin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ilcsoft.desy.de/marlin/marlin.xsd">
+ <constants>
+  <!-- define constants here - use in steering file as ${ConstantName} -->
+  <!--constant name="DetectorModel" value="ILD_l5_o1_v02" /-->
+
+     <constant name="OutputBaseName" value="DiMuonMassProcessor" />
+     <constant name="rootFile" value="${OutputBaseName}.root" />
+
+ </constants>
+
+ <execute>
+  <!--processor name="MyEventSelector"/-->
+  <!--if condition="MyEventSelector"-->
+   <processor name="MyDiMuonMassProcessor"/>
+   <!--processor name="MyLCIOOutputProcessor"/-->
+  <!--/if-->
+ </execute>
+
+ <global>
+  <parameter name="LCIOInputFiles">
+
+     </parameter>
+  <!-- limit the number of processed records (rLikelihoodPIDun+evt): -->
+  <parameter name="MaxRecordNumber" value="2000000" />
+  <parameter name="SkipNEvents" value="0" />
+  <parameter name="SupressCheck" value="false" />
+  <parameter name="AllowToModifyEvent" value="false" />
+  <parameter name="GearXMLFile"></parameter>
+  <parameter name="Verbosity" options="DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT"> DEBUG  </parameter>
+  <parameter name="RandomSeed" value="1234567890" />
+  <!-- optionally limit the collections that are read from the input file: -->
+  <!--parameter name="LCIOReadCollectionNames">MCParticle PandoraPFOs</parameter-->
+ </global>
+
+ <processor name="MyDiMuonMassProcessor" type="DiMuonMass">
+ <!--MyProcessor does whatever it does ...-->
+  <!--Name of the MCParticle collection-->
+  <parameter name="CollectionName" type="string" lcioInType="MCParticle">MCParticle </parameter>
+  <!--verbosity level of this processor ("DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT")-->
+  <!--parameter name="Verbosity" type="string">DEBUG </parameter-->
+  <!-- filename without extension-->
+ <parameter name="FileName" type="string">${rootFile}</parameter>
+  <parameter name="FileType" type="string">root </parameter>
+</processor>

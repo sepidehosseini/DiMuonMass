@@ -24,7 +24,7 @@ TLatex* add_prelim_mark( TCanvas* canvas, Double_t x0, Double_t y0, Float_t text
 
 
 using namespace std;
-void InvMassMacro()
+void InvMassMacro_1()
 {
 
 	string file_path_mcp = "/nfs/dust/ilc/user/hosseins/DiMuMass/root_files/ILD_l5_o1_v02/merged_root_files/";
@@ -256,10 +256,10 @@ for (int n=0; n<physical_process.size();++n)
 	cout << "***************                Processing " << physical_process[n] << "               ***************" << endl;
 	cout << "" << endl;
 	cout << "******************************************   ILD_l5_v2   ******************************************" << endl;
-	cout << "N_ll = " << N_l5[0] << " ;		Luminosity_l5_ll = " << Luminosity_l5[0] << " ;		CrossSection_ll = " << sig_l5[0] << " ;		Weighting_ll = " << weight_l5[0] << endl;
-	cout << "N_lr = " << N_l5[1] << " ;		Luminosity_l5_lr = " << Luminosity_l5[1] << " ;		CrossSection_lr = " << sig_l5[1] << " ;		Weighting_lr = " << weight_l5[1] << endl;
-	cout << "N_rl = " << N_l5[2] << " ;		Luminosity_l5_rl = " << Luminosity_l5[2] << " ;		CrossSection_rl = " << sig_l5[2] << " ;		Weighting_rl = " << weight_l5[2] << endl;
-	cout << "N_rr = " << N_l5[3] << " ;		Luminosity_l5_rr = " << Luminosity_l5[3] << " ;		CrossSection_rr = " << sig_l5[3] << " ;		Weighting_rr = " << weight_l5[3] << endl;
+	cout << "N_ll = " << N_l5[0] << " ;		Luminosity_l5_ll = " << Luminosity_l5[0] << " ;		CrossSection_MM = " << Sigma_l5[0] << " ;		Weighting_ll = " << weight_l5[0] << endl;
+	cout << "N_lr = " << N_l5[1] << " ;		Luminosity_l5_lr = " << Luminosity_l5[1] << " ;		CrossSection_MP = " << Sigma_l5[1] << " ;		Weighting_lr = " << weight_l5[1] << endl;
+	cout << "N_rl = " << N_l5[2] << " ;		Luminosity_l5_rl = " << Luminosity_l5[2] << " ;		CrossSection_PM = " << Sigma_l5[2] << " ;		Weighting_rl = " << weight_l5[2] << endl;
+	cout << "N_rr = " << N_l5[3] << " ;		Luminosity_l5_rr = " << Luminosity_l5[3] << " ;		CrossSection_PP = " << Sigma_l5[3] << " ;		Weighting_rr = " << weight_l5[3] << endl;
 	cout << "" << endl;
 	cout << "" << endl;
 	cout << "" << endl;
@@ -822,7 +822,7 @@ ildStyle->SetOptFit(0);
 	can_pfoInvMass_l5_vs_s5->SaveAs((plots_dir+"pfoInvMass_l5_vs_s5.pdf").c_str());
 	can_pfoInvMass_l5_vs_s5->SaveAs((plots_dir+"pfoInvMass_l5_vs_s5.eps").c_str());
 	can_pfoInvMass_l5_vs_s5->SaveAs((plots_dir+"pfoInvMass_l5_vs_s5.C").c_str());
-
+/*
 //	//	//	l5_vs_s5_fit PFO InvMass
 
 ildStyle->SetOptStat(0);
@@ -876,5 +876,5 @@ ildStyle->SetOptFit(1111);
 	pfoInvMass_l5_vs_s5_fit->SaveAs((plots_dir+"pfoInvMass_l5_vs_s5_fit.eps").c_str());
 	pfoInvMass_l5_vs_s5_fit->SaveAs((plots_dir+"pfoInvMass_l5_vs_s5_fit.C").c_str());
 
-
+*/
 }

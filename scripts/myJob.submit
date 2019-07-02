@@ -1,0 +1,5 @@
+Executable  = /afs/desy.de/group/flc/pool/hosseins/Internship/mymarlin/examples/DiMuonMassProcessor/runMyjob_onBird.sh
+Log         = $ENV(HOME)/log_$(Cluster)_$(Process).txt
+Output      = $ENV(HOME)/out_$(Cluster)_$(Process).txt
+Error       = $ENV(HOME)/error_$(Cluster)_$(Process).txt
+Queue 1

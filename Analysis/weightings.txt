@@ -1,0 +1,298 @@
+OBJ: TStyle	ildStyle	ILD Style : 0 at: 0x271ed20
+
+Processing InvMassMacro.cpp...
+
+
+
+***************                Processing 2f_Z_hadronic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 0 ;		Luminosity_l5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 1505667 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 32470.5 ;		Weighting_lr = 20.8546
+N_rl = 846000 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 17994.7 ;		Weighting_rl = 22.0584
+N_rr = 0 ;		Luminosity_l5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 0 ;		Luminosity_s5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 1505867 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 32470.5 ;		Weighting_lr = 20.8518
+N_rl = 846000 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 17994.7 ;		Weighting_rl = 22.0584
+N_rr = 0 ;		Luminosity_s5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+***************                Processing 4f_singleW_semileptonic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 37151 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 753.07 ;		Weighting_ll = 31.5149
+N_lr = 357081 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 7805.53 ;		Weighting_lr = 21.7452
+N_rl = 11413 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 22.8265 ;		Weighting_rl = 80.1567
+N_rr = 37129 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 750.068 ;		Weighting_rr = 10.5545
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 37151 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 753.07 ;		Weighting_ll = 31.5149
+N_lr = 368881 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 7805.53 ;		Weighting_lr = 21.0496
+N_rl = 11413 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 22.8265 ;		Weighting_rl = 80.1567
+N_rr = 37129 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 750.068 ;		Weighting_rr = 10.5545
+
+
+
+***************                Processing 4f_singleZee_semileptonic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 91293 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 1775.49 ;		Weighting_ll = 8.02197
+N_lr = 132424 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 1961.13 ;		Weighting_lr = 22.7456
+N_rl = 91754 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 1726.55 ;		Weighting_rl = 30.5888
+N_rr = 91090 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 1778.01 ;		Weighting_rr = 7.78841
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 91293 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 1775.49 ;		Weighting_ll = 8.02197
+N_lr = 132424 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 1961.13 ;		Weighting_lr = 22.7456
+N_rl = 91754 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 1726.55 ;		Weighting_rl = 30.5888
+N_rr = 91090 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 1778.01 ;		Weighting_rr = 7.78841
+
+
+
+***************                Processing 4f_singleZnunu_semileptonic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 0 ;		Luminosity_l5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 72071 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 951.715 ;		Weighting_lr = 12.4059
+N_rl = 29492 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 58.9838 ;		Weighting_rl = 3.67913
+N_rr = 0 ;		Luminosity_l5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 0 ;		Luminosity_s5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 72271 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 951.715 ;		Weighting_lr = 12.3716
+N_rl = 29492 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 58.9838 ;		Weighting_rl = 3.67913
+N_rr = 0 ;		Luminosity_s5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+***************                Processing 4f_WW_hadronic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 0 ;		Luminosity_l5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 376006 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 7680.69 ;		Weighting_lr = 19.1247
+N_rl = 16761 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 33.5218 ;		Weighting_rl = 27.5339
+N_rr = 0 ;		Luminosity_l5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 0 ;		Luminosity_s5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 375906 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 7680.69 ;		Weighting_lr = 19.1298
+N_rl = 16761 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 33.5218 ;		Weighting_rl = 27.5339
+N_rr = 0 ;		Luminosity_s5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+***************                Processing 4f_WW_semileptonic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 0 ;		Luminosity_l5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 477121 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 9521.45 ;		Weighting_lr = 18.6842
+N_rl = 22789 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 45.5779 ;		Weighting_rl = 25.2693
+N_rr = 0 ;		Luminosity_l5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 0 ;		Luminosity_s5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 477121 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 9521.45 ;		Weighting_lr = 18.6842
+N_rl = 22789 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 45.5779 ;		Weighting_rl = 25.2693
+N_rr = 0 ;		Luminosity_s5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+***************                Processing 4f_ZZ_hadronic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 0 ;		Luminosity_l5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 38521 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 680.225 ;		Weighting_lr = 16.9236
+N_rl = 19698 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 271.876 ;		Weighting_rl = 14.8527
+N_rr = 0 ;		Luminosity_l5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 0 ;		Luminosity_s5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 38421 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 680.225 ;		Weighting_lr = 16.9677
+N_rl = 19698 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 271.876 ;		Weighting_rl = 14.8527
+N_rr = 0 ;		Luminosity_s5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+***************                Processing 4f_ZZ_semileptonic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 0 ;		Luminosity_l5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 293085 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 608.57 ;		Weighting_lr = 1.99863
+N_rl = 128488 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 288.362 ;		Weighting_rl = 2.36588
+N_rr = 0 ;		Luminosity_l5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 0 ;		Luminosity_s5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 304085 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 608.57 ;		Weighting_lr = 1.92634
+N_rl = 140088 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 288.362 ;		Weighting_rl = 2.16997
+N_rr = 0 ;		Luminosity_s5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+***************                Processing 4f_ZZWWMix_hadronic               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 0 ;		Luminosity_l5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 305802 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 6400.11 ;		Weighting_lr = 19.6039
+N_rl = 20755 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 78.6961 ;		Weighting_rl = 20.8174
+N_rr = 0 ;		Luminosity_l5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 0 ;		Luminosity_s5_ll = 0 ;		CrossSection_ll = 0 ;		Weighting_ll = 0
+N_lr = 313002 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 6400.11 ;		Weighting_lr = 19.1529
+N_rl = 20755 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 78.6961 ;		Weighting_rl = 20.8174
+N_rr = 0 ;		Luminosity_s5_rr = 0 ;		CrossSection_rr = 0 ;		Weighting_rr = 0
+
+
+
+***************                Processing 6f_eeWW               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 166977 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 6.62926 ;		Weighting_ll = 0.0228417
+N_lr = 255690 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 16.472 ;		Weighting_lr = 0.0768539
+N_rl = 117723 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 3.64354 ;		Weighting_rl = 0.0709738
+N_rr = 167047 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 6.61314 ;		Weighting_rr = 0.0151313
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 166977 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 6.62926 ;		Weighting_ll = 0.0228417
+N_lr = 255490 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 16.472 ;		Weighting_lr = 0.076914
+N_rl = 117723 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 3.64354 ;		Weighting_rl = 0.0709738
+N_rr = 167047 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 6.61314 ;		Weighting_rr = 0.0151313
+
+
+
+***************                Processing 6f_llWW               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 20000 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 0.184942 ;		Weighting_ll = 0.0575099
+N_lr = 179698 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 8.71921 ;		Weighting_lr = 0.0461103
+N_rl = 80000 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 0.219704 ;		Weighting_rl = 0.0100794
+N_rr = 20000 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 0.184925 ;		Weighting_rr = 0.0150122
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 20000 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 0.184942 ;		Weighting_ll = 0.0575099
+N_lr = 180625 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 8.71921 ;		Weighting_lr = 0.0458736
+N_rl = 80000 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 0.219704 ;		Weighting_rl = 0.0100794
+N_rr = 20000 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 0.184925 ;		Weighting_rr = 0.0150122
+
+
+
+***************                Processing 6f_ttbar               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 30000 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 0.546038 ;		Weighting_ll = 0.743021
+N_lr = 3152439 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 163.32 ;		Weighting_lr = 0.0496744
+N_rl = 1317007 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 60.6517 ;		Weighting_rl = 0.0503002
+N_rr = 30000 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 0.541844 ;		Weighting_rr = 0.400762
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 30000 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 0.546038 ;		Weighting_ll = 0.743021
+N_lr = 3152414 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 163.32 ;		Weighting_lr = 0.0496748
+N_rl = 1312781 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 60.6517 ;		Weighting_rl = 0.0504622
+N_rr = 30000 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 0.541844 ;		Weighting_rr = 0.400762
+
+
+
+***************                Processing 6f_vvWW               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 30000 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 0.181501 ;		Weighting_ll = 0.0642931
+N_lr = 252973 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 14.8997 ;		Weighting_lr = 0.0556199
+N_rl = 89000 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 0.24657 ;		Weighting_rl = 0.0132125
+N_rr = 30000 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 0.182269 ;		Weighting_rr = 0.015455
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 30000 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 0.181501 ;		Weighting_ll = 0.0642931
+N_lr = 252373 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 14.8997 ;		Weighting_lr = 0.0557522
+N_rl = 90000 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 0.24657 ;		Weighting_rl = 0.0130657
+N_rr = 30000 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 0.182269 ;		Weighting_rr = 0.015455
+
+
+
+***************                Processing 6f_xxWW               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 30000 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 0.262709 ;		Weighting_ll = 0.0683306
+N_lr = 206742 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 15.7005 ;		Weighting_lr = 0.0719227
+N_rl = 89800 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 0.249819 ;		Weighting_rl = 0.0141789
+N_rr = 30000 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 0.26366 ;		Weighting_rr = 0.0168355
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 30000 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 0.262709 ;		Weighting_ll = 0.0683306
+N_lr = 206742 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 15.7005 ;		Weighting_lr = 0.0719227
+N_rl = 90000 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 0.249819 ;		Weighting_rl = 0.0141474
+N_rr = 30000 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 0.26366 ;		Weighting_rr = 0.0168355
+
+
+
+***************                Processing 6f_xxxxZ               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 10000 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 0.0338195 ;		Weighting_ll = 0.00169965
+N_lr = 60000 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 0.0640522 ;		Weighting_lr = 0.00136022
+N_rl = 60000 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 0.0211721 ;		Weighting_rl = 0.000725711
+N_rr = 10000 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 0.0329791 ;		Weighting_rr = 0.00125236
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 10000 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 0.0338195 ;		Weighting_ll = 0.00169965
+N_lr = 60000 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 0.0640522 ;		Weighting_lr = 0.00136022
+N_rl = 60000 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 0.0211721 ;		Weighting_rl = 0.000725711
+N_rr = 10000 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 0.0329791 ;		Weighting_rr = 0.00125236
+
+
+
+***************                Processing 6f_yyyyZ               ***************
+
+******************************************   ILD_l5_v2   ******************************************
+N_ll = 80000 ;		Luminosity_l5_ll = 400 ;		CrossSection_ll = 0.022032 ;		Weighting_ll = 0.00126637
+N_lr = 121115 ;		Luminosity_l5_lr = 1600 ;		CrossSection_lr = 0.740993 ;		Weighting_lr = 0.00587981
+N_rl = 120000 ;		Luminosity_l5_rl = 1600 ;		CrossSection_rl = 0.0966543 ;		Weighting_rl = 0.00120148
+N_rr = 79800 ;		Luminosity_l5_rr = 400 ;		CrossSection_rr = 0.0196865 ;		Weighting_rr = 0.000455631
+
+
+
+******************************************   ILD_s5_v2   ******************************************
+N_ll = 80000 ;		Luminosity_s5_ll = 400 ;		CrossSection_ll = 0.022032 ;		Weighting_ll = 0.00126637
+N_lr = 121115 ;		Luminosity_s5_lr = 1600 ;		CrossSection_lr = 0.740993 ;		Weighting_lr = 0.00587981
+N_rl = 120000 ;		Luminosity_s5_rl = 1600 ;		CrossSection_rl = 0.0966543 ;		Weighting_rl = 0.00120148
+N_rr = 80000 ;		Luminosity_s5_rr = 400 ;		CrossSection_rr = 0.0196865 ;		Weighting_rr = 0.000454492
+
+
+
+******************************************   ILD_s5  ******************************************
+N_candidates_s5 = -986.037
+******************************************   ILD_l5  ******************************************
+N_candidates_l5 = -1065.82
